@@ -26,14 +26,14 @@ You can find them in the example.
 
 ## Installation
 ```sh
-npm i react-native-modal-dropdown -save
+npm i react-native-modal-dropdown-extend -save
 ```
 
 ## Usage
 ### Basic
 Import this module:
 ```javascript
-import ModalDropdown from 'react-native-modal-dropdown';
+import ModalDropdown from 'react-native-modal-dropdown-extend';
 ```
 Use as a component:
 ```javascript

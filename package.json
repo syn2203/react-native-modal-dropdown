@@ -1,6 +1,6 @@
 {
-  "name": "react-native-modal-dropdown",
-  "version": "0.7.0",
+  "name": "react-native-modal-dropdown-extend",
+  "version": "1.1.0",
   "description": "A react-native dropdown component for both iOS and Android.",
   "keywords": [
     "react",
@@ -16,9 +16,9 @@
     "selector",
     "option"
   ],
-  "homepage": "https://github.com/sohobloo/react-native-modal-dropdown",
+  "homepage": "https://github.com/syn2203/react-native-modal-dropdown",
   "bugs": {
-    "url": "https://github.com/sohobloo/react-native-modal-dropdown/issues",
+    "url": "https://github.com/syn2203/react-native-modal-dropdown/issues",
     "email": "sohobloo@live.cn"
   },
   "license": "MIT",
@@ -26,7 +26,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sohobloo/react-native-modal-dropdown.git"
+    "url": "https://github.com/syn2203/react-native-modal-dropdown.git"
   },
   "dependencies": {
     "prop-types": "^15.6.0",
