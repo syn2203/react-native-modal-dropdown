@@ -307,9 +307,9 @@ export default class ModalDropdown extends Component {
     const {renderRow, dropdownTextStyle, dropdownTextHighlightStyle, accessible} = this.props;
     const {selectedIndex} = this.state;
     const key = `row_${rowID}`;
-    const highlighted = rowID == selectedIndex;
+    const highlighted = rowID === selectedIndex;
     const row = !renderRow ?
-      (<Text style={[
+      (<Text numberOfLines={1} ellipsizeMode={'tail'} style={[
         styles.rowText,
         dropdownTextStyle,
         highlighted && styles.highlightedRowText,
@@ -324,7 +324,7 @@ export default class ModalDropdown extends Component {
       accessible,
       onPress: () => this._onRowPress(rowData, sectionID, rowID, highlightRow),
     };
-    if (TOUCHABLE_ELEMENTS.find(name => name == row.type.displayName)) {
+    if (TOUCHABLE_ELEMENTS.find(name => name === row.type.displayName)) {
       const props = {...row.props};
       props.key = preservedProps.key;
       props.onPress = preservedProps.onPress;
